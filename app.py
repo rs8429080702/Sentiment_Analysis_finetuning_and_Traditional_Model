@@ -13,8 +13,8 @@ tokenizer_sentiment = AutoTokenizer.from_pretrained(repo_id_sentiment)
 
 # --- Load Customer Satisfaction Model ---
 # Load trained classifier model and scaler for Rating Prediction
-model_classifier = joblib.load('machine_learning_m/final_logistic_regression_model.joblib')
-scaler = joblib.load('machine_learning_m/scaler.joblib')
+model_classifier = joblib.load('final_logistic_regression_model.joblib')
+scaler = joblib.load('scaler.joblib')
 
 # Load BERT model for embeddings
 tokenizer_bert = BertTokenizer.from_pretrained('bert-base-uncased')
