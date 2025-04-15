@@ -58,7 +58,7 @@ def preprocess_input(text):
     return features
 
 # --- Streamlit UI ---
-st.title("METTLER TOLEDO Customer Review Analysis App")
+st.title("Customer Review Analysis App")
 
 # Sidebar: Select Task
 task = st.sidebar.selectbox("Select Task", ["Sentiment Analysis", "Predict Satisfaction"])
