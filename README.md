@@ -45,8 +45,5 @@ scikit-learn
 
 pandas, numpy
 
-torch or tensorflow (based on the LLM)
-
-License
-MIT License
+torch 
 
